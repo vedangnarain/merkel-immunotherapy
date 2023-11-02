@@ -39,11 +39,12 @@ r = 0.514;  # cancer growth rate
 #zeta = 0.007;  # immune killing 
 q = 2.0e-2+3.42e-10;  # natural immune cell death
 #epsilon = 0.5;  # zeta for type-2 killing
+K=1/1.02e-09;  # carrying capacity
 
 # Think about other parameters
-K=1/1.02e-09;  # carrying capacity
 A = 0.1*K;  # Allee effect
 phiT = r;  # natural immune influx
+zeta = 
 alpha = 0;  # cancer-induced recruitment 
 
 # Define the initial conditions
